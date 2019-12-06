@@ -30,7 +30,7 @@ body {
   color: white;
   font-size: small;
 }
-#hide{
+.hide{
   display:none;
 }
 #Contact-Us {

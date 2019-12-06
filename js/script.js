@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
   $("#design").click(function(){
-    $("p").toggle();
+    $("#hide-design").toggle();
   })
 
   $("#development").click(function(){
-    $("p").toggle();
+    $("#hide-development").toggle();
   })
 
   $("#productManagement").click(function(){
-    $("p").toggle();
+    $("#product-management").toggle();
   })
 })
