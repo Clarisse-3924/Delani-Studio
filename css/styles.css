@@ -8,6 +8,16 @@ body {
   color: white;
 
 }
+.Dlogo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.MouseClick {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 #aboutUs {
   text-align: center;
   color: black;
@@ -19,6 +29,9 @@ body {
   text-align: center;
   color: white;
   font-size: small;
+}
+#hide{
+  display:none;
 }
 #Contact-Us {
   background-image: url(backgrounds/c_image.jpg);
