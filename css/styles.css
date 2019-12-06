@@ -2,7 +2,8 @@ body {
   background-color: white;
 }
 #intro {
-  background-image: url(../assets/backgrounds/h_img.jpg);
+  background-image: url(backgrounds/h_img.jpg);
+  background-size: cover;
   text-align: center;
   color: white;
 }
@@ -12,15 +13,19 @@ body {
 }
 #services {
   background-image: url(backgrounds/s_image.jpg);
+  background-size: cover;
   text-align: center;
   color: white;
 }
 #Contact-Us {
-  background-image: url(../assets/backgrounds/c_img.jpg);
+  background-image: url(backgrounds/c_image.jpg);
+  background-size:cover;
+  display: cover;
 }
 .Footer {
-  background-image: url(../assets/backgrounds/c_img.jpg);
   color: black;
   justify-content: center;
   text-align: center;
+  font-size: x-small;
+  
 }
