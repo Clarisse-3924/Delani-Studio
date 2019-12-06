@@ -11,10 +11,16 @@ body {
   color: black;
 }
 #services {
-  background-image: url(../assets/backgrounds/s_img.jpg);
+  background-image: url(backgrounds/s_image.jpg);
   text-align: center;
   color: white;
 }
 #Contact-Us {
   background-image: url(../assets/backgrounds/c_img.jpg);
+}
+.Footer {
+  background-image: url(../assets/backgrounds/c_img.jpg);
+  color: black;
+  justify-content: center;
+  text-align: center;
 }
