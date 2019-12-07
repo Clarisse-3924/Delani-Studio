@@ -33,15 +33,21 @@ body {
 .hide{
   display:none;
 }
+.row{
+  padding:2%;
+}
 #Contact-Us {
   background-image: url(backgrounds/c_image.jpg);
   background-size:cover;
   display: cover;
+  padding: 10%;
+}
+#contact-info-input{
+  background-color: rgba(0, 0, 0, 0);
 }
 .Footer {
   color: black;
   justify-content: center;
   text-align: center;
   font-size: x-small;
-  
 }

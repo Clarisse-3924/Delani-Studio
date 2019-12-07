@@ -11,4 +11,10 @@ $(document).ready(function() {
   $("#productManagement").click(function(){
     $("#product-management").toggle();
   })
+
+  $("form#Contact-Us").submit(function(event) {
+    
+  })
+
+  
 })

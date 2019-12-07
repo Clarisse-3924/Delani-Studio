@@ -12,7 +12,7 @@
   <title>Delani Studio</title>
 </head>
 <body>
-  <div class="container">
+  <div class="container-fluid">
   <div class="card" id="intro">
     <br><br><br><br>
     <img src="./assets/logo/logo.png" alt="Delani's studio logo." class="Dlogo">
@@ -44,22 +44,23 @@
       <div class="row">
         <div class="col-md-4" id="design">
             <img src="./assets/services_icons/design_icon.png" alt="Delani's design icon.">
-            <p class="hide" id="hide-design">Design<br>
+            <p>DESIGN</p><br>
+            <p class="hide" id="hide-design">
                 Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
                 Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p><br>
               <br><br>
         </div>
         <div class="col-md-4" id="development">
             <img src="./assets/services_icons/dev_icon.png" alt="Delani's dev. icon.">
-            <p class="hide" id="hide-development">Development<br>
-
+            <p>DEVELOPMENT</p><br>
+            <p class="hide" id="hide-development">
                 All engineers are fluent in the latest enterprise, mobile and web development technologies.
                 They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p><br>
         </div>
         <div class="col-md-4" id="productManagement">
             <img src="./assets/services_icons/product_icon.png" alt="Delani's product.">
-            <p class="hide" id="product-management">Product Management<br>
-
+            <p>PRODUCT MANAGEMENT</p><br>
+            <p class="hide" id="product-management">
                   Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
                   This iterative process allows for changes as business requirements evolve.</p><br>
         </div>
@@ -68,49 +69,55 @@
   <div class="card" id="Portfolio">
       <h4 style="text-align: center;">PORTFOLIO</h4>
       <div class="row">
-          <div class="col-3" id="work1">
-              <img src="./assets/portfolio/work1.jpg" alt="work1.">
-          </div>
-          <div class="col-3" id="work2">
-              <img src="./assets/portfolio/work2.jpg"  alt="work2.">
-          </div>
-          <div class="col-3" id="work3">
-            <img src="./assets/portfolio/work3.jpg"  alt="work3.">
-          </div>
-          <div class="col-3" id="work4">
-            <img src="./assets/portfolio/work4.jpg"  alt="work4.">
-          </div>
+        <div class="col-3" id="work1">
+          <img src="./assets/portfolio/work1.jpg" alt="work1." width=100%>
+        </div>
+        <div class="col-3" id="work2">
+          <img src="./assets/portfolio/work2.jpg"  alt="work2." width=100%>
+        </div>
+        <div class="col-3" id="work3">
+          <img src="./assets/portfolio/work3.jpg"  alt="work3." width=100%>
+        </div>
+        <div class="col-3" id="work4">
+          <img src="./assets/portfolio/work4.jpg"  alt="work4." width=100%>
+        </div>
+        <div class="col-3" id="work5">
+          <img src="./assets/portfolio/work5.jpg"  alt="work5." width=100%>
+        </div>
+        <div class="col-3" id="work6">
+          <img src="./assets/portfolio/work6.jpg"  alt="work6." width=100%>
+        </div>
+        <div class="col-3" id="work7">
+          <img src="./assets/portfolio/work7.jpg"  alt="work7." width=100%>
+        </div>
+        <div class="col-3" id="work8">
+          <img src="./assets/portfolio/work8.jpg"  alt="work8." width=100%>
+        </div>
       </div>
-      <div class="row">
-          <div class="col-3" id="work5">
-              <img src="./assets/portfolio/work5.jpg"  alt="work5.">
-          </div>
-          <div class="col-3" id="work6">
-              <img src="./assets/portfolio/work6.jpg"  alt="work6.">
-          </div>
-          <div class="col-3" id="work7">
-            <img src="./assets/portfolio/work7.jpg"  alt="work7.">
-          </div>
-          <div class="col-3" id="work8">
-            <img src="./assets/portfolio/work8.jpg"  alt="work8.">
-          </div>
-          <div class="col-3"></div>
-      </div>
+    </div>
   <div class="card" id="Contact-Us">
       <h4>CONTACT US</h4>
       <form id = "contact" onsubmit="event.preventDefault()">
-          <div class="form-group">
-            <label for="name">Name...</label>
-            <input id="name" class="form-control" type=text>
-           </div>
-           <div class="form-group">
-             <label for="email">Email</label>
-             <input id="email" class="form-control" type="text">
-           </div>
-           <div class="form-group">
-              <label for="message">Your message here...</label>
-              <input id="message" class="form-control" type="text">
+          <div class="row" id="contact-info-input">
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="name">Name...</label>
+                  <input id="name" class="form-control" type=text>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input id="email" class="form-control" type="text">
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                <label for="message">Your message here...</label>
+                <input id="message" class="form-control" type="text">
+              </div>
             </div>
+          </div>
          </form>
   </div>
   <div class="Footer" id="socialMediaIcons">
