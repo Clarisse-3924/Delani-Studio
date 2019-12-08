@@ -123,27 +123,28 @@
     </div>
   <div class="card" id="Contact-Us">
       <h4 style="text-align: center; color:white">CONTACT US</h4>
-      <form id = "contact">
+      <form id = "contact" onClick=preventDefault()>
           <div class="row" id="contact-info-input">
               <div class="col-6">
                 <div class="form-group">
                   <label for="name"></label>
-                  <input id="name" class="form-control" type="text" value="Name...">
+                  <input id="name" class="form-control" type="text" placeholder="Name..." value="">
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
                   <label for="email"></label>
-                  <input id="email" class="form-control" type="text" value="Email">
+                  <input id="email" class="form-control" type="text" placeholder="Email" value="">
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-group">
                 <label for="message"></label>
-                <input id="message" class="form-control" type="text" value="Your message here...">
+                <input id="comment" class="form-control" type="text" placeholder="Your message here..." value="">
               </div>
             </div>
           </div>
+          <div class="submit"><input type="submit" value="Submit"></div>
          </form>
   </div>
   <div class="Footer" id="socialMediaIcons">
