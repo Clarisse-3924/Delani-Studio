@@ -42,9 +42,15 @@ body {
   display: cover;
   padding: 10%;
 }
-#contact-info-input{
+form #contact{
   background-color: rgba(0, 0, 0, 0);
 }
+
+input[type=text] {
+  background:transparent;
+  color: white;
+}
+
 .Footer {
   color: black;
   justify-content: center;

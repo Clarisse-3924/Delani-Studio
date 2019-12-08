@@ -12,8 +12,12 @@ $(document).ready(function() {
     $("#product-management").toggle();
   })
 
-  $("form#Contact-Us").submit(function(event) {
+  $("#contact").submit(function(event) {
+    document.getElementById("contact").submit();
+    alert("We have received your message. Thank you for reaching out to us");
+
     
+    event.preventDefault();
   })
 
   
