@@ -33,8 +33,24 @@ body {
 .hide{
   display:none;
 }
-#portfolio img:hover{
-  
+
+.Hover {
+  display: none;
+}
+
+img:hover + .Hover {
+  display: block;
+  background-color:white;
+  color: black;
+  font-size: 16px;
+  padding: 16px 16px;
+  opacity:1;
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%; 
+
 }
 .row{
   padding:2%;
