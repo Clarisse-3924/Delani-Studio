@@ -33,6 +33,9 @@ body {
 .hide{
   display:none;
 }
+#portfolio img:hover{
+  
+}
 .row{
   padding:2%;
 }
