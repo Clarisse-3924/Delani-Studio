@@ -68,6 +68,10 @@ input[type=text] {
   background:transparent;
   color: white;
 }
+textarea[type=text] {
+  background:transparent;
+  color: white;
+}
 
 .submit{
   position:absolute;

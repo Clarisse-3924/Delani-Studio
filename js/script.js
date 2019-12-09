@@ -28,18 +28,6 @@ $(document).ready(function() {
         }
   
     event.preventDefault();
-
-    curl --request GET();
---url https://<dc>.api.mailchimp.com/3.0/";
---user "c8fbd9a0cf3958e02be2822e55cfbfc5-us4";
-
-    // $.ajax({
-    //   type: "post",
-    //   url: 'https://<dc>.api.mailchimp.com/3.0/',
-    //   c8fbd9a0cf3958e02be2822e55cfbfc5-us4
-    //   success: function(response) {
-    //       console.log(response);
-    //   }
   });
   })
 });
