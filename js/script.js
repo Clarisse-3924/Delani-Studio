@@ -21,10 +21,8 @@ $(document).ready(function() {
   },
   function(){
     $(this).animate({opacity:'0'});
-  });
-
-  $(document).ready(function () {
-    $('.submit').click(function () {
+  })
+$('.submit').click(function () {
         var Name = $('#mce-FNAME').val();
         var Email = $('#mce-EMAIL').val();
         var Message = $('#mce-MESSAGE');
@@ -35,7 +33,6 @@ $(document).ready(function() {
             alert(' Hi ' + Name + ' We have received your message. Thank you for reaching out to us.');
         }
   });
-  })
 });
 
 

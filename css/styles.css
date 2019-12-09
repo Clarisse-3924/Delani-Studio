@@ -50,12 +50,12 @@ h4{
   right:25%; 
 }
 .custom-info-on-portfolio-images {
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
+  height: 280px;
+  max-width: 280px;
+  /* margin:2%; */
+  padding:2px;
 }
-#work1{
+/* #work1{
   background: url(portfolio/work1.jpg) ;
   
 }
@@ -79,7 +79,7 @@ h4{
 }
 #work8{
   background: url(portfolio/work8.jpg) ;
-}
+} */
 .row{
   padding:2%;
 }
