@@ -1,15 +1,19 @@
 $(document).ready(function() {
 
-  $("#design").click(function(){
-    $("#hide-design").toggle();
+  $(".hide-design-image").click(function(){
+    $("#design-showing").toggle();
+    $(".hide-design-image").toggle();
+
   })
 
-  $("#development").click(function(){
-    $("#hide-development").toggle();
+  $(".hide-development-image").click(function(){
+    $("#development-showing").toggle();
+    $(".hide-development-image").toggle();
   })
 
-  $("#productManagement").click(function(){
-    $("#product-management").toggle();
+  $(".hide-product-management").click(function(){
+    $("#product-management-showing").toggle();
+    $(".hide-product-management").toggle();
   })
 
   // $("#contact").submit(function(event) {
@@ -26,11 +30,18 @@ $(document).ready(function() {
       alert('Invalid input');
     }
     event.preventDefault();
+
+    $.ajax({
+      type: "post",
+      url: "www.example.com/subfolder/page.php",
+      data: {
+          myLuckyNumber: 13
+      },
+      success: function(response) {
+          console.log(response);
+      }
+  });
   })
 });
 
-    event.preventDefault();
-  })
 
-  
-})
