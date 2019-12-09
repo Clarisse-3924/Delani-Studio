@@ -29,7 +29,7 @@ A webpage for Delani studio which gives a detailed account about what they are, 
 * I haven't encountered any bugs.
 ​
 ## License
-> MIT License &copy 2019 Wendy. 
+> MIT License &copy 2019 Eva M. Mutuku. 
 ​
 ## Collaborate
 To collaborate, reach me on [Email](mutileeva@gmail.com)
