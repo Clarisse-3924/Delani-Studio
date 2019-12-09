@@ -1,7 +1,7 @@
 body {
   background-color: white;
 }
-#intro {
+.intro {
   background-image: url(backgrounds/h_img.jpg);
   background-size: cover;
   text-align: center;
@@ -18,12 +18,12 @@ body {
   margin-right: auto;
   display: block;
 }
-#aboutUs {
+.aboutUs {
   text-align: center;
   color: black;
   font-size: small;
 }
-#services {
+.services {
   background-image: url(backgrounds/s_image.jpg);
   background-size: cover;
   text-align: center;
@@ -54,7 +54,7 @@ img:hover + .Hover {
 .row{
   padding:2%;
 }
-#Contact-Us {
+.Contact-Us {
   background-image: url(backgrounds/c_image.jpg);
   background-size:cover;
   display: cover;

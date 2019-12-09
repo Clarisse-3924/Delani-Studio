@@ -3,7 +3,6 @@ $(document).ready(function() {
   $(".hide-design-image").click(function(){
     $("#design-showing").toggle();
     $(".hide-design-image").toggle();
-
   })
 
   $(".hide-development-image").click(function(){
@@ -15,20 +14,6 @@ $(document).ready(function() {
     $("#product-management-showing").toggle();
     $(".hide-product-management").toggle();
   })
-
-  // $("#contact").submit(function(event) {
-  //   document.getElementById("contact").submit();
-  //   alert("We have received your message. Thank you for reaching out to us");
-
-  // $("#Contact-Us").submit(function (event) {
-  //   var name = $("input:name").val();
-  //   var email = $("input:email").val();
-  //   var message = $("input:comment").val();
-  //   if (name || email || message != '') {
-  //     alert("Thank you " + name + " your message is well received !");
-  //   } else {
-  //     alert('Invalid input');
-  //   }
 
   $(document).ready(function () {
     $('.submit').click(function () {
