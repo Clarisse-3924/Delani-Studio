@@ -17,9 +17,9 @@ $(document).ready(function() {
 
   $(document).ready(function () {
     $('.submit').click(function () {
-        var Name = $('#name').val();
-        var Email = $('#email').val();
-        var Message = $('#comment');
+        var Name = $('#mce-FNAME').val();
+        var Email = $('#mce-EMAIL').val();
+        var Message = $('#mce-MESSAGE');
         var key ='c8fbd9a0cf3958e02be2822e55cfbfc5-us4';
         if (Name == '' || Email == '' || Message == '') {
             alert('Please make sure you have filled in the form correctly!');
@@ -29,12 +29,14 @@ $(document).ready(function() {
   
     event.preventDefault();
 
+    curl --request GET();
+--url https://<dc>.api.mailchimp.com/3.0/";
+--user "c8fbd9a0cf3958e02be2822e55cfbfc5-us4";
+
     // $.ajax({
     //   type: "post",
-    //   url: "www.example.com/subfolder/page.php",
-    //   data: {
-    //       myLuckyNumber: 13
-    //   },
+    //   url: 'https://<dc>.api.mailchimp.com/3.0/',
+    //   c8fbd9a0cf3958e02be2822e55cfbfc5-us4
     //   success: function(response) {
     //       console.log(response);
     //   }
