@@ -1,6 +1,10 @@
 body {
   background-color: white;
 }
+
+h4{
+  font-family: 'Merriweather', serif;
+}
 .intro {
   background-image: url(backgrounds/h_img.jpg);
   background-size: cover;
@@ -22,6 +26,7 @@ body {
   text-align: center;
   color: black;
   font-size: small;
+  font-family: 'Yantramanav', sans-serif;
 }
 .services {
   background-image: url(backgrounds/s_image.jpg);
@@ -29,14 +34,14 @@ body {
   text-align: center;
   color: white;
   font-size: small;
+  font-family: 'Yantramanav', sans-serif;
 }
 .hide{
   display:none;
 }
 
 .Hover {
-  /* display: none; */
-  opacity:0.5;
+  opacity:0;
   background-color: rgba(255, 255, 255, 0.623);
   position: absolute;
   top:25%;
@@ -48,63 +53,57 @@ body {
   background: url(portfolio/work1.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work2{
   background: url(portfolio/work2.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work3{
   background: url(portfolio/work3.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work4{
   background: url(portfolio/work4.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work5{
   background: url(portfolio/work5.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work6{
   background: url(portfolio/work6.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work7{
   background: url(portfolio/work7.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
+  max-width: 200px;
+  margin:2%;
 }
 #work8{
   background: url(portfolio/work8.jpg) ;
   background-size: cover;
   height: 200px;
-  width: 200px;
-}
-
-img:hover + .Hover {
-  display: block;
-  background-color:white;
-  color: black;
-  font-size: 16px;
-  padding: 16px 16px;
-  opacity:1;
-  position: absolute;
-  top:25%;
-  bottom:25%;
-  left:25%;
-  right:25%; 
+  max-width: 200px;
+  margin:2%;
 }
 .row{
   padding:2%;
@@ -123,7 +122,7 @@ input[type=text] {
   background:transparent;
   color: white;
 }
-input[type=text] {
+textarea[type=text] {
   background:transparent;
   color: white;
 }
@@ -138,4 +137,5 @@ input[type=text] {
   justify-content: center;
   text-align: center;
   font-size: x-small;
+  font-family: 'Amaranth', sans-serif;
 }
