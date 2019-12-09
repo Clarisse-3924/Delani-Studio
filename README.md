@@ -1,6 +1,6 @@
 
 # DELANI STUDIO
-[Check it out](https://eva-mutuku.github.io/Delani-Studio/.)
+[Check it out](https://eva-mutuku.github.io/Delani-Studio/)
 ​
 ## Description.
 A webpage for Delani studio which gives a detailed account about what they are, the services they offer, projects done so far and a contact page that the user can reach them to.
