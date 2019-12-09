@@ -49,61 +49,36 @@ h4{
   left:25%;
   right:25%; 
 }
-#work1{
-  background: url(portfolio/work1.jpg) ;
+.custom-info-on-portfolio-images {
   background-size: cover;
   height: 200px;
   max-width: 200px;
   margin:2%;
+}
+#work1{
+  background: url(portfolio/work1.jpg) ;
+  
 }
 #work2{
   background: url(portfolio/work2.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work3{
   background: url(portfolio/work3.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work4{
   background: url(portfolio/work4.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work5{
   background: url(portfolio/work5.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work6{
   background: url(portfolio/work6.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work7{
   background: url(portfolio/work7.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 #work8{
   background: url(portfolio/work8.jpg) ;
-  background-size: cover;
-  height: 200px;
-  max-width: 200px;
-  margin:2%;
 }
 .row{
   padding:2%;
