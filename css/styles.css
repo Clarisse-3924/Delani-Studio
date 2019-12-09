@@ -35,7 +35,62 @@ body {
 }
 
 .Hover {
-  display: none;
+  /* display: none; */
+  opacity:0.5;
+  background-color: rgba(255, 255, 255, 0.623);
+  position: absolute;
+  top:25%;
+  bottom:25%;
+  left:25%;
+  right:25%; 
+}
+#work1{
+  background: url(portfolio/work1.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work2{
+  background: url(portfolio/work2.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work3{
+  background: url(portfolio/work3.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work4{
+  background: url(portfolio/work4.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work5{
+  background: url(portfolio/work5.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work6{
+  background: url(portfolio/work6.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work7{
+  background: url(portfolio/work7.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+}
+#work8{
+  background: url(portfolio/work8.jpg) ;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
 }
 
 img:hover + .Hover {
@@ -68,7 +123,7 @@ input[type=text] {
   background:transparent;
   color: white;
 }
-textarea[type=text] {
+input[type=text] {
   background:transparent;
   color: white;
 }

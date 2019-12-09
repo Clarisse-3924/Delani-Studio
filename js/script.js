@@ -1,19 +1,27 @@
 $(document).ready(function() {
 
-  $(".hide-design-image").click(function(){
+  $("#design").click(function(){
     $("#design-showing").toggle();
     $(".hide-design-image").toggle();
   })
 
-  $(".hide-development-image").click(function(){
+  $("#development").click(function(){
     $("#development-showing").toggle();
     $(".hide-development-image").toggle();
   })
 
-  $(".hide-product-management").click(function(){
+  $("#productManagement").click(function(){
     $("#product-management-showing").toggle();
     $(".hide-product-management").toggle();
   })
+
+  //Insert white box upo hover
+  $(".Hover").hover(function(){
+    $(this).animate({opacity:'1'});
+  },
+  function(){
+    $(this).animate({opacity:'0'});
+  });
 
   $(document).ready(function () {
     $('.submit').click(function () {
