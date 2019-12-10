@@ -10,7 +10,6 @@ h4{
   background-size: cover;
   text-align: center;
   color: white;
-
 }
 .Dlogo {
   margin-left: auto;
@@ -52,34 +51,8 @@ h4{
 .custom-info-on-portfolio-images {
   height: 280px;
   max-width: 280px;
-  /* margin:2%; */
   padding:2px;
 }
-/* #work1{
-  background: url(portfolio/work1.jpg) ;
-  
-}
-#work2{
-  background: url(portfolio/work2.jpg) ;
-}
-#work3{
-  background: url(portfolio/work3.jpg) ;
-}
-#work4{
-  background: url(portfolio/work4.jpg) ;
-}
-#work5{
-  background: url(portfolio/work5.jpg) ;
-}
-#work6{
-  background: url(portfolio/work6.jpg) ;
-}
-#work7{
-  background: url(portfolio/work7.jpg) ;
-}
-#work8{
-  background: url(portfolio/work8.jpg) ;
-} */
 .row{
   padding:2%;
 }
