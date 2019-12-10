@@ -4,6 +4,9 @@
 ​
 ## Description.
 A webpage for Delani studio which gives a detailed account about what they are, the services they offer, projects done so far and a contact page that the user can reach them to.
+
+## Codebeat grading
+* [![codebeat badge](https://codebeat.co/badges/6af13f00-bb64-4722-9612-dff4c65878e3)](https://codebeat.co/projects/github-com-eva-mutuku-delani-studio-gh-pages)
 ​
 ## Author.
  > Eva M. Mutuku
